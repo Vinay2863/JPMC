@@ -1,0 +1,11 @@
+{
+    "users":[
+        {
+            "id":1,
+            "roll":1234,
+            "name":"Vinay",
+            "email":"vinay@gmail.com"
+
+        }
+    ]
+}

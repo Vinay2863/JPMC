@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>Document</title>
+    <style>
+        .divclass
+        {
+            display:flex;
+            flex-direction: column;
+           background-color: rgb(71, 71, 71);
+            margin:20px;
+            align-items:center;
+        }
+        button
+        {
+            padding: 5px 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="divclass">
+        <div>
+            <input type="text" id = "id1" placeholder="Enter Id to Display Details"><br>
+            <button onclick="getData( )">Display</button>
+        </div><br><br>
+        <div>
+            <input type="text" id = "id2" placeholder="Enter Id to Delete Data"><br>
+            <button onclick="deleteData( )">Delete</button>
+        </div><br><br>
+        <div>
+            <input type="text" id = "id" placeholder="Enter Id "><br>
+            <input type="text" id = "no" placeholder="Enter Number"><br>
+            <input type="text" id = "name" placeholder="Enter Name"><br>
+            <input type="text" id = "email" placeholder="Enter Email"><br>
+            <button onclick="createData( )">Insert</button>
+        </div><br><br>
+        <div>
+            <input type="text" id = "idd" placeholder="Enter Id "><br>
+            <input type="text" id = "noo" placeholder="Enter Number to update"><br>
+            <input type="text" id = "namee" placeholder="Enter Name to update"><br>
+            <input type="text" id = "emaill" placeholder="Enter Email to update"><br>
+            <button onclick="updateData( )">Update</button>
+        </div>
+        
+    </div>
+
+    <table id="tabledata" align="center" cellspacing="30" cellpadding="5" border="5">
+        <thead>
+            <th>id</th>
+            <th>no</th>
+            <th>name</th>
+            <th>email</th>
+        </thead>
+        <tbody id="tablebody"> 
+
+        </tbody>
+    </table>
+    
+</body>
+</html>
