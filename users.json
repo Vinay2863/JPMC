@@ -6,6 +6,13 @@
             "name":"Vinay",
             "email":"vinay@gmail.com"
 
+        },
+        {
+            "id":2,
+            "roll":1235,
+            "name":"Vinaynaidu",
+            "email":"vinaynaidu@gmail.com"
+
         }
     ]
 }
