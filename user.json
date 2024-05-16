@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "roll_no": 123,
+      "name": "Surya",
+      "branch": "CSE",
+      "id": "a117"
+    },
+    {
+      "roll_no": "124",
+      "name": "Sai",
+      "branch": "CSIT",
+      "id": "b8e9"
+    },
+    {
+      "roll_no": 125,
+      "name": "Vinay",
+      "branch": "IT",
+      "id": "464f"
+    },
+    {
+      "roll_no": 126,
+      "name": "Pawan",
+      "branch": "ECE",
+      "id": "fc20"
+    },
+    {
+      "id": "3c9b",
+      "roll_no": 1235,
+      "name": "Kalyan",
+      "branch": "MECH"
+    },
+    {
+      "id": "0d8d",
+      "roll_no": "1237",
+      "name": "Kalyan",
+      "branch": "IT"
+    }
+  ]
+}
