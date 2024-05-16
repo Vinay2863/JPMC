@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crud.css">
+    <script src="crudop.js"></script>
+    <title>CRUD Operations</title>
+</head>
+<body onload="fetchData()">
+    <div class="container">
+        <h1 class="title">CRUD Operations</h1>
+        
+        <div class="form-container" align="center">
+            <form onsubmit="searchData(); return false;">
+                <input type="text" id="rollNo" placeholder="Enter rollno">
+                <button type="submit">Fetch</button>
+            </form>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                   
+                        <th>Roll No</th>
+                        <th>Name</th>
+                        <th>Branch</th>
+                    
+                </thead>
+                <tbody id="tablebd" align="center"></tbody>
+            </table>
+        </div><br><br><br><br>
+
+        <div class="form-container">
+            <form onsubmit="createData(); return false;">
+                <input type="text" id="roll_no" placeholder="Enter rollno">
+                <input type="text" id="name" placeholder="Enter name">
+                <input type="text" id="branch" placeholder="Enter branch">
+                <button type="submit">Add</button>
+            </form>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Roll No</th>
+                        <th>Name</th>
+                        <th>Branch</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tablebody" align="center"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
