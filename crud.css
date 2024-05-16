@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+.form-container input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.form-container button {
+    padding: 8px 15px;
+    background-color: #7c8d7d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #667466;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #839484;
+    color: white;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #ddd;
+}
